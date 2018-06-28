@@ -248,9 +248,9 @@ protected:
                         (unsigned long long)x2, (unsigned long long)x1);
                 return false;
             } else if (diff64 < 0) {
-                ALOGW("LinearMap: %s negative diff(%lld) from %llu - %llu",
-                        coord, (long long)diff64,
-                        (unsigned long long)x2, (unsigned long long)x1);
+                //ALOGW("LinearMap: %s negative diff(%lld) from %llu - %llu",
+                //        coord, (long long)diff64,
+                //        (unsigned long long)x2, (unsigned long long)x1);
                 return false;
             }
             return true;
